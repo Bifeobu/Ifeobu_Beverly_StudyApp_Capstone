@@ -5,7 +5,7 @@ function Homepage() {
 
     return(
         <>
-            <Title>Welcome to Study Solitude</Title>
+            <Title>Welcome to<br/>Study Solitude</Title>
         </>
     )
 }
