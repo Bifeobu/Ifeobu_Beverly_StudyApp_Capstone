@@ -5,7 +5,7 @@ function Homepage() {
 
     return(
         <>
-            <Title>Welcome to<br/>Study Solitude</Title>
+            <Title>Welcome to<br/><p className="studySol">Study Solitude</p></Title>
         </>
     )
 }
