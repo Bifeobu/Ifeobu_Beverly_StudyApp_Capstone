@@ -1,4 +1,5 @@
 import Title from './components/Title';
+import './Homepage.css'
 
 function Homepage() {
 
