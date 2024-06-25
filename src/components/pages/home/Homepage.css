@@ -29,13 +29,18 @@
     text-wrap: balance;
 }
 
-.imgBox1{
-    position: fixed;
-    left: 870px;
-}
+/* .imgBox1{ */
+    /* position: fixed;
+    left: 870px; (if to comment back in do not do this part)*/
+    /* position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;  */
+/* } */
 
-.img1{
+/* .img1{
     position: relative;
     height: 500px;
-    width: 400px;
-}
+    width: 300px;
+} */
