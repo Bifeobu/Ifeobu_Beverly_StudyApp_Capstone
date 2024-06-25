@@ -1,7 +1,9 @@
 import Title from '../../Title'
 import './Homepage.css'
+// import gif from 'src/assets/peace-background.gif'
+import gif from '../../../assets/peace-background.gif'
 
-function Homepage() {
+function Homepage({ backgroundGif }) {
 
     return(
         <>
