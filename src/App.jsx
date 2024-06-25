@@ -7,6 +7,12 @@ function App() {
 
   return (
     <>
+      <div>
+        <Routes>
+          <Route path="/" element={<Homepage/>}/>
+          <Route path="/home" element={<Homepage/>}/>
+        </Routes>
+      </div>
     </>
   )
 }
