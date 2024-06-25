@@ -12,14 +12,12 @@ function Homepage() {
     //     return <img src={gif} className='background' alt=''/>
     // }
 
-    return(
+    return (
         <>
-            <img src={gif} className='background' alt=''/>
-            <Title>Welcome to<br/><p className="studySol">Study Solitude</p></Title>
-            <div className='container1'>
-                <div className='imgBox1'>
-                    <img src={img1} className='img1'/>
-                </div>
+            <img src={gif} className='background' alt='' />
+            <Title>Welcome to<br /><p className="studySol">Study Solitude</p></Title>
+            <div className='imgBox1'>
+                <img src={img1} className='img1' />
             </div>
         </>
     )

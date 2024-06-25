@@ -28,3 +28,14 @@
     text-align: center;
     text-wrap: balance;
 }
+
+.imgBox1{
+    position: fixed;
+    left: 870px;
+}
+
+.img1{
+    position: relative;
+    height: 500px;
+    width: 400px;
+}
