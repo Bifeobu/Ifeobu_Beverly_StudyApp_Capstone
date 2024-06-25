@@ -4,13 +4,12 @@ import './App.css';
 import Homepage from './components/pages/home/Homepage';
 
 function App() {
-  const [backgroundGif, setBackgroudGif] = useState(false);
 
   return (
     <>
       <div>
         <Routes>
-          <Route path="/" element={<Homepage backgroundGif={backgroundGif}/>}/>
+          <Route path="/" element={<Homepage/>}/>
           <Route path="/home" element={<Homepage/>}/>
         </Routes>
       </div>

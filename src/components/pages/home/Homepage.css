@@ -1,5 +1,16 @@
-body{
-
+.background{
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: none;
+    position: fixed;
+    object-fit: cover;
+    /* background image will be behind content with z-index */
+    z-index: -1; 
 }
 
 .title{
