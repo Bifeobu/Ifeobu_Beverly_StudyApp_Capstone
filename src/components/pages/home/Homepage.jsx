@@ -5,6 +5,10 @@ import gif from '../../../assets/peace-background.gif'
 
 function Homepage({ backgroundGif }) {
 
+    if (backgroundGif) {
+        return <img src={gif} className='background' alt=''/>
+    }
+
     return(
         <>
             <Title>Welcome to<br/><p className="studySol">Study Solitude</p></Title>
