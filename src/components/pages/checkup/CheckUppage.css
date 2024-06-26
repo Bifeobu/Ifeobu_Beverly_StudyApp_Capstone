@@ -41,6 +41,14 @@ textarea {
     border: solid 1px #999;
 }
 
+.about {
+    text-align: center;
+}
+
+.lorem {
+    text-align: center;
+}
+
 /* input[type="submit"] {
     padding: .5em 1em;
     border-radius: 6px;
