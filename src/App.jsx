@@ -4,7 +4,7 @@ import './App.css';
 import Homepage from './components/pages/home/Homepage';
 import CheckUppage from './components/pages/checkup/CheckUppage';
 import AboutUs from './components/pages/about/AboutUs';
-
+import StopWatch from './components/pages/timer/stopwatch/StopWatch';
 
 function App() {
   //holds all the state, when forms are fetched they will go into this so they can be displayed
