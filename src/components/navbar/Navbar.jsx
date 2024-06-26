@@ -16,9 +16,9 @@ function Navbar() {
                 <Link to={"/study-timer"}>
                     <div>Study Timer</div>
                 </Link>
-                <Link to={"/planner"}>
+                {/* <Link to={"/planner"}>
                     <div>Study Planner</div>
-                </Link>
+                </Link> */}
                 <Link to={"/check-in"}>
                     <div>Mental Check-In</div>
                 </Link>
