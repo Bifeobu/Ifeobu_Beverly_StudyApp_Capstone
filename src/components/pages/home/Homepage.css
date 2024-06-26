@@ -29,6 +29,13 @@
     text-wrap: balance;
 }
 
+h2 {
+    color:rgb(241, 119, 75);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 226, 3), 0 0 5px rgb(220, 198, 31);
+    font-family: 'Trade Winds';
+    text-align: center;
+    text-wrap: balance;
+}
 /* .imgBox1{ */
     /* position: fixed;
     left: 870px; (if to comment back in do not do this part)*/

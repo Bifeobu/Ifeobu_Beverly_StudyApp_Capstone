@@ -21,7 +21,7 @@ function Homepage() {
                 <img src={img1} className='img1' />
             </div> */}
             <div>
-                <h2>Habit for Peaceful, Undistracted Studying</h2>
+                <h2>Habit for Peaceful,<br/> Undistracted<br/> Studying</h2>
             </div>
         </>
     )
