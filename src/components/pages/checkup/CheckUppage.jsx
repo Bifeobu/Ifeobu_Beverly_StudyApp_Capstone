@@ -55,7 +55,7 @@ function CheckUppage({ checkForm, setCheckForm, BASE_URL }) {
                 <form onSubmit={handleSubmit} className='checkForm'>
                     <fieldset>
                         <legend>Mental Check-In</legend>
-                        <label>Mood:</label>
+                        <label>Mood: Are You Feeling Ecstatic, Happy, Neutral, Sad, or Angry?</label>
                         <input type="text" id='mood' ref={moodRef} placeholder='Ecstatic, Happy, Neutral, Sad, or Angry?' />
                         <br />
                         <label>Content:</label>
