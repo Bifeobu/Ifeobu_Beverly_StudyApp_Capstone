@@ -5,6 +5,7 @@ import Homepage from './components/pages/home/Homepage';
 import CheckUppage from './components/pages/checkup/CheckUppage';
 import AboutUs from './components/pages/about/AboutUs';
 import StopWatch from './components/pages/timer/stopwatch/StopWatch';
+import Timer from './components/pages/timer/ttimer/Timer';
 
 function App() {
   //holds all the state, when forms are fetched they will go into this so they can be displayed
@@ -22,6 +23,7 @@ function App() {
           <Route path="/check-in" element={<CheckUppage 
           //to update form state with a new form
           checkForm={checkForm} setCheckForm={setCheckForm} BASE_URL={BASE_URL}/>}/>
+          <Route path="/study-timer" element={<StopWatch/>}/>
           <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>
       </div>
