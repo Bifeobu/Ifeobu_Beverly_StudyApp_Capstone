@@ -43,10 +43,12 @@ textarea {
 
 .about {
     text-align: center;
+    color: rgba(240, 255, 255, 0.637);
 }
 
 .lorem {
     text-align: center;
+    color: rgba(240, 255, 255, 0.788);
 }
 
 /* input[type="submit"] {
