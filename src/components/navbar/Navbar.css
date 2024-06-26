@@ -9,8 +9,8 @@ body {
 
 nav {
   width: 300px;
-  background: white;
-  color: rgba(0, 0, 0, 0.87);
+  background: rgba(133, 172, 190, 0.655);
+  color: rgb(255, 255, 255);
   -webkit-clip-path: circle(24px at 30px 24px);
   clip-path: circle(24px at 32px 24px);
   -webkit-transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
@@ -39,11 +39,11 @@ a {
 }
 
 a:hover { 
-    background: #ffe082; 
+    background: #06bc0c; 
 }
 
 a:active { 
-    background: #ffca28; 
+    background: #049209; 
 }
 
 .navicon {
