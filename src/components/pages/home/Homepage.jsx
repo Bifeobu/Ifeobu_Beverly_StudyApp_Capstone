@@ -20,6 +20,10 @@ function Homepage() {
             {/* <div className='imgBox1'>
                 <img src={img1} className='img1' />
             </div> */}
+            <div>
+                <h2>Habit for Peaceful</h2><br/>
+                <h2>Undistracted Studying</h2>
+            </div>
         </>
     )
 }
