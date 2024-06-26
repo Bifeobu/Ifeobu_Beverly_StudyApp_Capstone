@@ -50,12 +50,19 @@ function CheckUppage({ checkForm, setCheckForm, BASE_URL }) {
     return (
         <div className="formContainer">
             <form onSubmit={handleSubmit} className='checkForm'>
-                Mood: <input type="text" ref={moodRef} placeholder='Ecstatic, Happy, Neutral, Sad, or Angry?' />
-                <br />
-                Content: <input type="text" ref={conRef} placeholder='Explain your feelings...' />
-                <br />
-                Username: <input type="text" ref={nameRef} placeholder='Username' />
-                <br />
+                <fieldset>
+                    <legend>Mental Check-In</legend>
+                    <label>Mood:</label>
+                    <input type="text" id='mood' ref={moodRef} placeholder='Ecstatic, Happy, Neutral, Sad, or Angry?' />
+                    <br />
+                    <label>Content:</label> 
+                    <textarea type="text" id='content' ref={conRef} placeholder='Explain your feelings...' />
+                    {/* <textarea id='content1'></textarea> */}
+                    <br />
+                    <label>Username:</label><input type="text" id='name' ref={nameRef} placeholder='Username' />
+                    <br />
+                    <input type="submit" value="Submit" />
+                </fieldset>
             </form>
         </div>
     )
